@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if else</title>
+</head>
+<body>
+
+    <script>
+
+        // max between 2 numbers
+        let num1=21;
+        let num2=20;
+
+        if(num1>num2){
+            console.log(`${num1} is greater`);
+        }
+        else if(num1==num2){
+            console.log('both nums are equal')
+        }
+        else{
+            console.log(`${num2} is greater`)
+        }
+        // max among three 
+
+        let a=21,b=20,c=21;
+
+        if(a>b )
+        {
+
+            if(a>c)
+            {
+                console.log('a is greater');
+            }
+            else {
+                console.log(' c is greater')
+            }
+        }
+        else{
+
+            if( b>c)
+            console.log( 'b is greater');
+
+              else
+              console.log(' c is greater')
+    
+        }
+
+        // positive negative zero
+
+        let num=-3;
+
+ if(num>0){
+    console.log("positive hu");
+ }
+ else if(num===0){
+    console.log("zero")
+ }
+ else{
+    console.log("negative hu")
+ }
+
+//  number divisible by 5 and 7
+
+     let number=70;
+
+     if(number%5===0 && number%7===0){
+        console.log('number is divisible by 5 and 7')
+     }
+     else{
+        console.log('number isnt divisible')
+     }
+
+    //  even or odd
+
+    let val=10;
+    if(val%2==0){
+        console.log('value is even')
+    }
+    else{
+        console.log('value is odd')
+    }
+
+    // wap for leap year or not 
+
+    let year=1200;
+    if( (year%400===0) ||   (year%4===0) && (year%100!=0)){
+        console.log('Leap year')
+    }
+
+    else{
+        console.log('Not a leap year')
+    }
+
+    // alphabet or not
+    let value='A';
+
+ if(value>='a' && value<='z' ||  value>='A' && value <='Z'){
+    console.log('alphabet');
+ }
+ else{
+    console.log('not an alphabet')
+ }
+
+//  check vowels or consonants
+    let alpha='a';
+
+    if(alpha=='a' || alpha=='e' ||alpha=='i'|| alpha=='o'|| alpha=='u'||
+     alpha=='A'|| alpha=='E'|| alpha=='I'|| alpha=='O' ||alpha=='U'){
+    
+        console.log('vowels');
+
+    }
+    else{
+        console.log('consonants');
+    }
+
+    // check for numbers, alphabet and special characters
+    let value1=10;
+
+ if(value1>='a' && value1<='z' ||  value1>='A' && value1 <='Z'){
+    console.log('alphabet');
+ }
+
+ else if(value1>=0 || value1<0){
+         console.log("number");
+ }
+ else{
+    console.log(" special symbols")
+ }
+
+     
+//  uppercase or not
+
+  let y='A';
+  
+ if(y>='a' && y<='z' ){
+    console.log('lowercase');
+ }
+ else if(  y>='A' && y <='Z'){
+
+    console.log(' y is Uppercase')
+ }
+
+//  print days
+
+let day=0;
+
+if(day===0){
+    console.log('sunday');
+}
+else if(day===1){
+    console.log('Monday');
+}
+else if(day===2){
+    console.log('Tuesday');
+}
+
+else if(day===3){
+    console.log('wednesday');
+}
+else if(day===4){
+    console.log('Thursday');
+}
+else if(day===5){
+    console.log('friday');
+}
+else if(day===6){
+    console.log('saturday');
+}
+else{
+    console.log('not a valid day')
+}
+
+// months
+
+let months=2;
+if(months==1 || months==3 ||months==5 || months==7 || months==9 ||months==11){
+    console.log('31 days');
+}
+else if(months==4 || months==6 || months==8 || months==10 ||months==12){
+    console.log('30 days')
+}
+else if(months==2){
+    console.log('28 days or 29 days')
+}
+else{
+ console.log('not a month')
+}
+
+// 
+let sid1=60;
+let side2=70;
+let side3=50;
+
+if(sid1+side2+side3===180){
+    console.log('Triangle')
+}
+else{
+    console.log('not a traingle')
+}
+
+let a1=3,b1=2,c1=1;
+
+if(a+b>c && b+c >a && c+a>b){
+    console.log('Triangle')
+}
+else{
+    console.log('not a traingle')
+}
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
