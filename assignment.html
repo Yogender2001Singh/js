@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <input type="text" name="" id="num1">
+
+     <select id="values">
+        <option id="add" value="+">+</option>
+        <option id="sub" value="-">-</option>
+        <option id="mul" value="*">*</option>
+        <option id="div" value="/">/</option>
+       </select>
+    
+        <input type="text" name="" id="num2">
+
+         <br>
+
+        <select id="val">
+            <option id="" value="1">shubham</option>
+            <option id="" value="2">yogender</option>
+            <option id="" value="3">rajesh </option>
+            <option id="" value="4">sachin</option>
+           </select>
+
+    <script>
+        document.getElementById('values').onchange=function(){
+        
+          
+                
+            const val1=document.getElementById('num1').value;
+            const val2=document.getElementById('num2').value;
+
+             if(document.getElementById('values').value ==='+'){
+              console.log(parseInt(val1) +parseInt(val2))
+             }
+            
+
+            if(document.getElementById('values').value === '-')
+            {
+              console.log(parseInt(val1) -parseInt(val2))
+            }
+            
+            if(document.getElementById('values').value === '*')
+            {
+              console.log(parseInt(val1) *parseInt(val2))
+            }
+            
+            if(document.getElementById('values').value === '/')
+            {
+              console.log(parseInt(val1) /parseInt(val2))
+            }
+            
+        }
+
+        document.getElementById('val').onchange=function(){
+        
+          
+                
+   
+
+         if(document.getElementById('val').value ==='1'){
+          console.log(`my name is shubham`)
+         }
+
+         
+         if(document.getElementById('val').value ==='2'){
+          console.log(`my name is yogender`)
+         }
+
+         if(document.getElementById('val').value ==='3'){
+          console.log(`my name is rajesh`)
+         }
+         if(document.getElementById('val').value ==='4'){
+          console.log(`my name is sachin`)
+         }
+        
+
+        
+        
+    }
+        
+  
+     
+    </script>
+    
+</body>
+</html>
