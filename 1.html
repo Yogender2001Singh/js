@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <button id="merabutton">click me</button>
+     <h1 id="m1">shubham</h1>
+   
+
+    <script>
+        console.log("welcome in js !!!");
+        // alert('shubham'); 
+        // document.write('shubham');
+       
+        document.getElementById('merabutton').onclick=function()
+        {
+            document.getElementById('m1').innerHTML="rajesh  "
+        
+            document.getElementById('m1').style.color="red";
+            document.getElementById('merabutton').textContent="clicked";
+
+            
+        }
+
+    </script>
+    <!-- <script src="1.js"></script> -->
+</body>
+</html>
