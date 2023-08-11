@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Calculator</title>
+    
+    <style>
+       
+       body{
+        background-color: rgb(42, 25, 58);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+    .container{
+    border: 1px solid #5e5f61;
+    padding: 20px;
+    border-radius: 40px;
+    }
+    input{
+    width: 300px;
+    margin: 10px;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+   color: rgb(26, 4, 4);
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 30%;
+   background: transparent;
+   color:white;
+   font-size: 20px;
+   box-shadow:-10px -10px 10px -10px rgba(147, 127, 127, 1);
+   cursor: pointer;
+
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+      
+        <input type="text" placeholder="0" id="inputbox">
+        <div>
+            <button class="op">AC</button>
+            <button class="op">DEL</button>
+            <button class="op">%</button>
+            <button class="op">/</button>
+        </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="op">*</button>
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="op">-</button>
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="op">+</button>
+        </div>
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="equalbtn">=</button>
+        </div>
+    </div>
+  <script src="calculator.js"></script>
+    
+</body>
+</html>
